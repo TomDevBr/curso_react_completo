@@ -1,10 +1,10 @@
 import React from 'react';
-import Jsx2 from './components/jsx2';
+import JsxArray2 from './components/JsxArray2';
 
 const App = () => {
   return (<>
     <div>App React</div>
-    <Jsx2/>
+    <JsxArray2/>
   </>);
 };
 
