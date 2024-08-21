@@ -1,12 +1,11 @@
+import React from 'react';
+import Jsx2 from './components/jsx2';
 
-function App() {
- 
+const App = () => {
+  return (<>
+    <div>App React</div>
+    <Jsx2/>
+  </>);
+};
 
-  return (
-    <>
-    <h1>Hello word!</h1>
-    </>
-  )
-}
-
-export default App
+export default App;
