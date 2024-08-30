@@ -1,6 +1,6 @@
 import React from 'react';
-import JsxArray2 from './components/JsxArray2';
-import Home from './components/desafio_componentes/Home';
+import Home from './components/useState/Home';
+
 
 const App = () => {
   return (<>
