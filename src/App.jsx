@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './components/useState/Home';
+import Home from './components/useEffect/Home';
 
 
 const App = () => {
