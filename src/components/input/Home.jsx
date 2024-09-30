@@ -51,31 +51,31 @@ import React from "react";
     return (
         <form onSubmit={handleSubmit} >
             <label htmlFor="nome">Nome</label>
-            <input type="text" id="nome" onChange={handleChange} />
+            <input type="text" id="nome" value={dataForm.nome} onChange={handleChange} />
 
             <label htmlFor="email">Email</label>
-            <input type="email" id="email"  onChange={handleChange}/>
+            <input type="email" id="email" value={dataForm.email} onChange={handleChange}/>
 
             <label htmlFor="senha">Senha</label>
-            <input type="password" id="senha"  onChange={handleChange}/>
+            <input type="password" id="senha" value={dataForm.senha} onChange={handleChange}/>
 
             <label htmlFor="cep">Cep</label>
-            <input type="text" id="cep"  onChange={handleChange}/>
+            <input type="text" id="cep" value={dataForm.cep} onChange={handleChange}/>
 
             <label htmlFor="Rua">Rua</label>
-            <input type="text" id="rua"  onChange={handleChange}/>
+            <input type="text" id="rua" value={dataForm.rua} onChange={handleChange}/>
 
             <label htmlFor="numero">Número</label>
-            <input type="number" id="numero"  onChange={handleChange}/>
+            <input type="number" id="numero" value={dataForm.numero} onChange={handleChange}/>
 
             <label htmlFor="bairro">Bairro</label>
-            <input type="text" id="bairro"  onChange={handleChange}/>
+            <input type="text" id="bairro" value={dataForm.bairro} onChange={handleChange}/>
 
             <label htmlFor="cidade">Cidade</label>
-            <input type="text" id="cidade"  onChange={handleChange}/>
+            <input type="text" id="cidade" value={dataForm.cidade} onChange={handleChange}/>
 
             <label htmlFor="estado">Estado</label>
-            <input type="text" id="estado"  onChange={handleChange}/>
+            <input type="text" id="estado" value={dataForm.estado} onChange={handleChange}/>
 
             <button type="submit">Enviar</button>
         </form>
