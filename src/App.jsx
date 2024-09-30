@@ -1,14 +1,15 @@
 import React from 'react';
-import { Home } from './components/useContext/Home';
-import { GlobalStorage } from './components/useContext/GlobalContext';
+import Home from './components/input/Home';
+
+
 
 
 
 const App = () => {
   return (<>
-  <GlobalStorage>
+  
     <Home/>
-    </GlobalStorage>
+
   </>);
 };
 
