@@ -1,5 +1,6 @@
 import React from 'react';
-import Home from './components/input/Home';
+import  Home  from './components/formularios/desafio_formularios/Home';
+
 
 
 
