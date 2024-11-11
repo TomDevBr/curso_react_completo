@@ -1,5 +1,6 @@
-import React from 'react';
-import  Home  from './components/formularios/desafio_formularios/Home';
+
+import AppRouter from './components/desafio_router/AppRouter';
+
 
 
 
@@ -8,8 +9,8 @@ import  Home  from './components/formularios/desafio_formularios/Home';
 
 const App = () => {
   return (<>
-  
-    <Home/>
+
+    <AppRouter />
 
   </>);
 };
