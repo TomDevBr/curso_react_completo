@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Produto from "./componentes/produtos/Produto";
+import Produtos from "./componentes/produtos/Produtos";
 import Header from "./componentes/header/Header";
 import Footer from "./componentes/footer/Footer";
 import Contato from "./componentes/contato/Contato";
 import './AppRouter.css'
+import Produto from "./componentes/produto/Produto";
 
 
 const AppRouter = () => {
@@ -13,7 +14,8 @@ const AppRouter = () => {
             <Header />
             <div className="content">
                 <Routes>
-                    <Route path="/" element={<Produto />} />
+                    <Route path="/" element={<Produtos />} />
+                    <Route path="/produto/:id" element={<Produto />} />
                     <Route path="/contato" element={<Contato />} />
 
 
